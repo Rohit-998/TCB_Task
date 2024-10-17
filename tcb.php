@@ -99,7 +99,7 @@ if (isset($_POST['Register'])) {
     $stmt->execute();
 
     if ($stmt) {
-        echo "Data inserted";
+        echo "Registration Successful";
     } else {
         echo "Failed";
     }
