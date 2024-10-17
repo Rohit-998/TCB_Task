@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background: #f2f2f2;
+}
+.Container{
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid black;
+    box-shadow: 5px 0 7px 5px rgba(0,0,0,0.5);
+}
+.Container h1{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+
+.TCB_Background{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}   
+.icon{
+    padding: 8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+    outline: none;
+}
+.TCB_Background span{
+    margin-left: 35px;
+}
+.field{
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+    outline: none;
+}
+.TCB_Background i {
+    position: absolute;
+    font-size: 18px;
+    color: #00ccbb;
+    border-right: 1px solid #cccccc;
+    
+}
+.icons{
+    position: absolute;
+    font-size: 18px;
+    padding: 8px 11px;
+    
+}
+.field:hover,.name:hover,.domain:hover{
+    background-color: #fafafa;
+}
+.field:focus,.name:focus,.domain:focus{
+    border: 1px solid #3C99DC;
+}
+.radio_b{
+    margin-right: 4px;
+}
+.domain{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    border-radius: 0;
+    background: white;
+    appearance: none;
+    -webkit-appearance: none ;
+    -ms-appearance:none;
+    outline: none;
+
+
+}
+.arrow{
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.domain:hover + .arrow,.domain:focus + .arrow{
+border-top-color: #3C99DC;
+}
+.button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(35, 40, 43);
+}
+.logo {
+    position: absolute;
+    top: 69px;
+    left: 719px;
+    width: 74px;
+    height: auto;
+}
+
+.TCB_Background i {
+    position: absolute;
+    font-size: 18px;
+    color: #3C99DC;
+    border-right: 1px solid #cccccc;
+    padding: 8px 11px;
+}
+
+
+
